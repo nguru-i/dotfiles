@@ -19,10 +19,10 @@ else # macOS `ls`
 	export LSCOLORS='BxBxhxDxfxhxhxhxhxcxcx'
 fi
 
-# List all files colorized in long format
+# List all files colorized in long format, excluding . and ..
 alias l="ls -lF ${colorflag}"
 
-# List all files colorized in long format, excluding . and ..
+# List all files colorized in long format
 alias la="ls -lAF ${colorflag}"
 
 # List only directories
