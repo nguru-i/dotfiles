@@ -66,6 +66,8 @@ alias python='python3'
 alias pip='pip3'
 
 
+#create a dotfiles alias
+
 
 
 

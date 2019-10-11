@@ -25,3 +25,9 @@ elif [ -f /etc/bash_completion ]; then
 fi;
 
 
+#Create Sublime Text 3 symlink
+
+ln -s "/Applications/Sublime Text.app/Contents/SharedSupport/bin/subl" /usr/local/bin/sublime
+
+
+
